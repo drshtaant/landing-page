@@ -8,6 +8,8 @@ import Features from '@/components/Features/Features'
 import Newsletter from '@/components/Newsletter/Newsletter'
 import Zigzag from '@/components/ZigZag/ZigZag'
 import Testimonials from '@/components/Testimonials/Testimonials'
+import Pricing from '@/components/Pricing'
+import Contact from '@/components/Contact'
 import Footer from '@/components/Footer'
 
 export default function Home() {
@@ -18,6 +20,8 @@ export default function Home() {
       <Zigzag />
       <Testimonials />
       <Newsletter />
+      <Pricing />
+      <Contact/>
       <Footer />
     </>
   )
